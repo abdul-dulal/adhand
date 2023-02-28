@@ -5,7 +5,7 @@ import fbIcon from "../../assets/img/icon/smallIcon.png";
 import { BsCheck } from "react-icons/bs";
 const Skills = () => {
   return (
-    <div className="container grid lg:grid-cols-2 grid-cols-1  gap-24 py-10">
+    <div className="container grid lg:grid-cols-2 grid-cols-1  gap-24 py-10 my-10">
       <div className="space-y-4">
         <div className="h-[136px] w-full  bg-[url('/src/assets/img/man.png')] bg-cover bg-no-repeat ">
           <div
@@ -58,7 +58,7 @@ const Skills = () => {
           More people will see your ads thanks to the right settings, and <br />{" "}
           you will spend the same budget
         </p>
-        <div className="flex gap-5 py-16">
+        <div className="flex gap-5 xl:py-16 lg:py-12 py-14">
           <div className="flex gap-2">
             <img src={instaIcon} alt="" />
             <p className="text-[17px] font-arial">Instagram</p>

@@ -20,9 +20,7 @@ module.exports = {
       xl: "1280px",
       "2xl": "1300px",
     },
-    lineHeight: {
-      5: "52px",
-    },
+
     fontFamily: {
       evolventa: "Evolventa-Regular",
       arial: "ARIAL",
@@ -35,6 +33,9 @@ module.exports = {
     extend: {
       fontSize: {
         "4xl": "39px",
+      },
+      lineHeight: {
+        5: "52px",
       },
     },
   },

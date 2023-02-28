@@ -19,8 +19,8 @@ const Clients = () => {
             </p>
           </div>
         </div>
-        <div className="col-span-6 lg:px-5 px-[10px] ">
-          <p className="lg:text-[19px] text-base font-arial font-semibold text-[#717B88] tracking-[0.01em] ">
+        <div className="col-span-6 lg:px-5 px-[10px] bg-[#F5F6F7] rounded[7px] py-7">
+          <p className="lg:text-[19px] text-base font-arial font-medium text-[#717B88] tracking-[0.01em] ">
             After the campaign was launched, the interest of the audience
             increased: more calls and Direct messages from moms and dads came
             in. We were pleasantly surprised that even a test budget of about

@@ -6,7 +6,7 @@ import image from "../../../assets/img/image 7.png";
 const Campagins = () => {
   return (
     <div className="container">
-      <div className=" max-w-[1200px] pt-28 relative">
+      <div className=" max-w-[1200px] pt-28 relative -z-50">
         <p className="text-[#F4A72D] text-base font-inter font-medium ">
           PROFITABLE, CLEAR AND FAST
         </p>

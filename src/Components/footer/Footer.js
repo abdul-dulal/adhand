@@ -46,7 +46,7 @@ const Footer = () => {
                 <p className="text-[17px] font-inter  font-semibold text-[#FAD69C]">
                   Tools
                 </p>
-                <ul className="text-[13px] text-[#FAD69C] font-inter font-semibold space-y-3 ">
+                <ul className="text-[13px] text-[#FAD69C] font-inter font-semibold space-y-3 cursor-pointer">
                   <li className="underline mt-3">Analytics </li>
                   <li className="underline">Auduencecontructor </li>
                   <li className="underline">Lockoutprotection</li>
@@ -56,7 +56,7 @@ const Footer = () => {
                 <p className="text-[17px] font-inter  font-semibold text-[#FAD69C]">
                   Company
                 </p>
-                <ul className="text-[13px] text-[#FAD69C] font-inter font-semibold space-y-3 ">
+                <ul className="text-[13px] text-[#FAD69C] font-inter font-semibold space-y-3  cursor-pointer">
                   <li className=" mt-3">Terms </li>
                   <li>Clients Cases </li>
                   <li>Contract</li>

@@ -13,8 +13,8 @@ const Signup = () => {
           questions
         </p>
         <div className="sm:flex  gap-9 mt-[52px]">
-          <div className="h-16 shadow-[7px]  bg-[#F5F6F7] sm:w-3/6 w-full px-3 ">
-            <span className="font-arial text-[17px] font-normal text-[#717B88]">
+          <div className=" py-3  shadow-[7px]  bg-[#F5F6F7] sm:w-3/6 w-full px-3 ">
+            <span className="font-arial text-[17px] font-normal text-[#717B88] mt-10">
               Name
             </span>
             <br />
@@ -22,10 +22,10 @@ const Signup = () => {
               type="text"
               name=""
               placeholder="Alex"
-              className=" focus:outline-none  bg-[#F5F6F7] w-full"
+              className=" focus:outline-none  bg-[#F5F6F7] w-full rounded-[7px]"
             />
           </div>
-          <div className="h-16 shadow-[7px]  bg-[#F5F6F7] sm:w-3/6 w-full px-3 sm:mt-0 mt-10">
+          <div className=" py-3 shadow-[7px]  bg-[#F5F6F7] sm:w-3/6 w-full px-3 sm:mt-0 mt-10">
             <span className="font-arial text-[17px] font-normal text-[#717B88]">
               Email
             </span>
@@ -34,11 +34,11 @@ const Signup = () => {
               type="text"
               name=""
               placeholder="Email ales@email.com"
-              className=" focus:outline-none  bg-[#F5F6F7] w-full"
+              className=" focus:outline-none  bg-[#F5F6F7] w-full rounded-[7px]"
             />
           </div>
         </div>
-        <div className="h-16 shadow-[7px]  bg-[#F5F6F7] w-full px-3 my-10">
+        <div className="py-3 shadow-[7px]  bg-[#F5F6F7] w-full px-3 my-10">
           <span className="font-arial text-[17px] font-normal text-[#717B88]">
             Whatsapp/Telegram phone number
           </span>
@@ -47,11 +47,11 @@ const Signup = () => {
             type="text"
             name=""
             placeholder="Email ales@email.com"
-            className=" focus:outline-none  bg-[#F5F6F7] w-full"
+            className=" focus:outline-none  bg-[#F5F6F7] w-full rounded-[7px]"
           />
         </div>
-        <div className="h-16 shadow-[7px]  bg-[#F5F6F7] w-full px-3 my-10">
-          <span className="font-arial text-[17px] font-normal text-[#717B88]">
+        <div className="py-3 shadow-[7px]  bg-[#F5F6F7] w-full px-3  my-10">
+          <span className="font-arial text-[17px] font-normal text-[#717B88] ">
             Company Website www.company.com
           </span>
           <br />
@@ -59,13 +59,13 @@ const Signup = () => {
             type="text"
             name=""
             placeholder=" www.company.com"
-            className=" focus:outline-none  bg-[#F5F6F7] w-full"
+            className=" focus:outline-none  bg-[#F5F6F7] w-full rounded-[7px]"
           />
         </div>
         <p className="text-sm font-arial font-normal text-[#717B88]">
           (website, business page or account that you will advertise)
         </p>
-        <button className="bg-[#F4A72D] h-[47px] sm:w-3/6 w-full text-base font-arial font-semibold text-center my-[67px] text-white">
+        <button className="bg-[#F4A72D] h-[47px] sm:w-3/6 w-full text-base font-arial font-semibold text-center my-[67px] text-white rounded-[7px]">
           Leave a request
         </button>
       </div>

@@ -12,8 +12,8 @@ import Skills from "./Components/skills/Skills";
 const App = () => {
   return (
     <div>
-      {/* <Navbar />
-      <Hero /> */}
+      {/* <Navbar /> */}
+      <Hero />
       <Skills />
       <About />
       <Campagins />

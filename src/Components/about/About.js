@@ -6,9 +6,9 @@ import owner from "../../assets/img/icon/user2.png";
 import media from "../../assets/img/icon/mdeia.png";
 const About = () => {
   return (
-    <div className="h-[403px] w-full bg-gradient-to-r from-[#140E03] to-[#392604] text-white mt-20">
+    <div className="py-20 w-full bg-gradient-to-r from-[#140E03] to-[#392604] text-white mt-20">
       <div className="container">
-        <p className="pt-[70px] font-inter font-medium text-base text-[#F7BD62]">
+        <p className=" font-inter font-medium text-base text-[#F7BD62]">
           A PLATFORM FOR EVERYONE
         </p>
         <h1 className="text-[36px] font-evolventa font-bold tracking-normal not-italic mt-3">

@@ -2,9 +2,11 @@ import React from "react";
 import Note from "../shere/Note";
 import addImg from "../../assets/img/Clip path group (1).png";
 import addbg from "../../assets/img/Vector (2).png";
+import sos from "../../assets/img/sos.svg";
+import increse from "../../assets/img/increse.svg";
 const Ads = () => {
   return (
-    <div className="container">
+    <div className="container ">
       <div className="max-w-[1270px] pt-16 grid lg:grid-cols-2 grid-cols-1 gap-20 items-center">
         <div>
           <p className="text-[#F4A72D] text-base font-inter font-medium uppercase">
@@ -21,11 +23,15 @@ const Ads = () => {
           <Note text="Real-time advice in English" />
           <Note text="We'll explain in simple words Meta's requirements for the advertiser" />
         </div>
-        <div className="relative">
-          <div className="absolute top0 right-40 ">
+        <div className="relative -z-50">
+          <div className="absolute top-0 right-40 ">
             <img src={addbg} alt="" />
           </div>
           <img src={addImg} alt="" />
+          <div className="flex md:gap-20 sm:gap-12  sm:ml-10 absolute -bottom-14 left-0">
+            <img src={sos} alt="" />
+            <img src={increse} alt="" />
+          </div>
         </div>
       </div>
       <div className="flex justify-center my-24 gap-5">
