@@ -14,25 +14,24 @@ const Subnav = () => {
   };
   window.addEventListener("scroll", change);
   return (
-    <div
-      className={`  w-full md:hidden  px-3 flex justify-between bg-white h-20  py-5 ${
-        showNav ? "border-b-2" : ""
-      }`}
-    >
-      <div>
-        {" "}
-        <img src={logo} alt="" />
-      </div>
-      <div className="">
-        {menu ? (
-          ""
-        ) : (
-          <TbMenu2
-            className="cursor-pointer text-3xl"
-            onClick={() => setMenu(true)}
-          />
-        )}
-        {menu ? <Modalmenu setMenu={setMenu} /> : ""}
+    <div className={`bg-white ${showNav ? "border-b-2" : ""}`}>
+      <div
+        className={`container w-full md:hidden  flex justify-between  h-20  py-5 `}
+      >
+        <div>
+          <img src={logo} alt="" />
+        </div>
+        <div className="">
+          {menu ? (
+            ""
+          ) : (
+            <TbMenu2
+              className="cursor-pointer text-3xl"
+              onClick={() => setMenu(true)}
+            />
+          )}
+          {menu ? <Modalmenu setMenu={setMenu} /> : ""}
+        </div>
       </div>
     </div>
   );
