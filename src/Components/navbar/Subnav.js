@@ -4,8 +4,21 @@ import { TbMenu2 } from "react-icons/tb";
 import logo from "../../assets/img/icon/logo2.png";
 const Subnav = () => {
   const [menu, setMenu] = useState(false);
+  const [showNav, setShownav] = useState(false);
+  const change = () => {
+    if (window.scrollY >= 50) {
+      setShownav(true);
+    } else {
+      setShownav(false);
+    }
+  };
+  window.addEventListener("scroll", change);
   return (
-    <div className="container md:hidden  flex justify-between pt-8">
+    <div
+      className={`  w-full md:hidden  px-3 flex justify-between bg-white h-20  py-5 ${
+        showNav ? "border-b-2" : ""
+      }`}
+    >
       <div>
         {" "}
         <img src={logo} alt="" />

@@ -12,9 +12,9 @@ const Navbar = () => {
   };
   window.addEventListener("scroll", change);
   return (
-    <div>
+    <div className="sticky top-0">
       <nav
-        className={`bg-white h-20 sticky top-0 py-4 md:block hidden  ${
+        className={`bg-white h-20  py-4 md:block hidden  ${
           showNav ? "border-b-2" : ""
         }`}
       >

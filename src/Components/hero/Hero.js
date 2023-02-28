@@ -4,7 +4,7 @@ import star from "../../assets/img/star.png";
 const Hero = () => {
   return (
     <div className="container lg:flex gap-24 mt-3">
-      <div className="max-w-[550px] w-full mt-20 ">
+      <div className="max-w-[550px] w-full md:mt-20 mt-9 ">
         <h1 className="text-black lg:text-[50px] md:text-[39px] text-3xl font-bold  font-evolventa lg:leading-[70px] md:leading-5  tracking-normal">
           Profitable
           <br className="lg:block hidden" /> payment for
