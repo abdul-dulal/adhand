@@ -1,7 +1,7 @@
 import React from "react";
 import Note from "../shere/Note";
 import addImg from "../../assets/img/Clip path group (1).png";
-import addbg from "../../assets/img/Vector (2).png";
+import addbg from "../../assets/img/3d.png";
 import sos from "../../assets/img/sos.svg";
 import increse from "../../assets/img/increse.svg";
 const Ads = () => {
@@ -24,10 +24,14 @@ const Ads = () => {
           <Note text="We'll explain in simple words Meta's requirements for the advertiser" />
         </div>
         <div className="relative -z-50">
-          <div className="absolute top-0 right-40 ">
-            <img src={addbg} alt="" />
-          </div>
           <img src={addImg} alt="" />
+          <div className="absolute xl:-bottom-10 lg:bottom-0 md:-bottom-10  bottom-0 s lg:-right-32 md:-right-10 right-0 ">
+            <img
+              src={addbg}
+              className="max-w-[300px] xl:h-[570px] lg:h-[400px] md:h-[570px] md:flex hidden"
+              alt=""
+            />
+          </div>
           <div className="flex md:gap-20 sm:gap-12  sm:ml-10 absolute -bottom-14 left-0">
             <img src={sos} alt="" />
             <img src={increse} alt="" />

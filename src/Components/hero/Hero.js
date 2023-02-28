@@ -24,9 +24,9 @@ const Hero = () => {
         </div>
         <img src={tiktok} className="mt-12" alt="" />
       </div>
-      <div className="relative">
+      <div className="relative -z-50">
         <img src={img} className="h-[625px]" alt="" />
-        <div className="absolute top-0 left-0 -z-50">
+        <div className="absolute bottom-0 right-0 -z-50">
           <img src={star} alt="" />
         </div>
       </div>

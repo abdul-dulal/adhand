@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import About from "./Components/about/About";
 import Campagins from "./Components/about/campagins/Campagins";
 import Ads from "./Components/ads/Ads";
@@ -8,11 +8,15 @@ import Hero from "./Components/hero/Hero";
 import Navbar from "./Components/navbar/Navbar";
 import Signup from "./Components/signup/Signup";
 import Skills from "./Components/skills/Skills";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 const App = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <Skills />
       <About />
