@@ -32,9 +32,9 @@ const Ads = () => {
               alt=""
             />
           </div>
-          <div className="flex md:gap-20 sm:gap-12  sm:ml-10 absolute -bottom-14 left-0">
-            <img src={sos} alt="" />
-            <img src={increse} alt="" />
+          <div className="flex md:gap-20 sm:gap-12 gap-0  sm:ml-10  absolute -bottom-14 ">
+            <img src={sos} className="sm:w-full w-40 " alt="" />
+            <img src={increse} className="sm:w-full w-40 " alt="" />
           </div>
         </div>
       </div>

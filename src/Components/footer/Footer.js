@@ -7,28 +7,32 @@ const Footer = () => {
     <footer className="bg-gradient-to-r from-[#140E03] to-[#392604] py-12">
       <div className="container px-6">
         <div className="max-w-[1200px]">
-          <img src={message} className="w-16 h-14" alt="" />
-          <h1 className=" md:text-4xl text-[24px] font-bold font-evolventa tracking-normal text-white">
-            Join the AdHand mailing list
-          </h1>
-          <div className=" md:flex justify-between items-center  md:mt-12 mt-8 md:space-y-0 space-y-5 ">
-            <p className="lg:text-base text-sm font-inter text-white font-medium tracking-normal">
-              No spam, just client cases, promotion tips and tool
-              recommendations
-            </p>
-            <div className="md:flex gap-2 md:space-y-0 space-y-5">
-              <div>
-                <input
-                  type="text"
-                  name=""
-                  placeholder="Email"
-                  className="h-12 lg:w-[338px] md:w-[220px] w-4/6 bg-white rounded-[7px] focus:outline-none px-3 placeholder:font-arial placeholder:text-base placeholder:font-bold text-[#A3ACBA]"
-                />
-              </div>
-              <div>
-                <button className="lg:w-[177px] md:w-[120px] w-4/6 bg-[#F4A72D] h-12 rounded-[7px] text-base font-arial font-bold text-white">
-                  Subscribe
-                </button>
+          <div className="bg-[#23201D] rounded-[7px]">
+            <div className="py-6 px-6 rounde">
+              <img src={message} className="w-16 h-14" alt="" />
+              <h1 className=" md:text-4xl text-[24px] font-bold font-evolventa tracking-normal text-white">
+                Join the AdHand mailing list
+              </h1>
+              <div className=" md:flex justify-between items-center  md:mt-12 mt-8 md:space-y-0 space-y-5 ">
+                <p className="lg:text-base text-sm font-inter text-white font-medium tracking-normal">
+                  No spam, just client cases, promotion tips and tool
+                  recommendations
+                </p>
+                <div className="md:flex gap-2 md:space-y-0 space-y-5">
+                  <div>
+                    <input
+                      type="text"
+                      name=""
+                      placeholder="Email"
+                      className="h-12 lg:w-[338px] md:w-[220px] w-4/6 bg-white rounded-[7px] focus:outline-none px-3 placeholder:font-arial placeholder:text-base placeholder:font-bold text-[#A3ACBA]"
+                    />
+                  </div>
+                  <div>
+                    <button className="lg:w-[177px] md:w-[120px] w-4/6 bg-[#F4A72D] h-12 rounded-[7px] text-base font-arial font-bold text-white">
+                      Subscribe
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
