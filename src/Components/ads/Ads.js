@@ -25,16 +25,16 @@ const Ads = () => {
         </div>
         <div className="relative -z-50">
           <img src={addImg} alt="" />
-          <div className="absolute xl:-bottom-10 lg:bottom-0 md:-bottom-10  bottom-0  lg:-right-32 md:-right-10 right-0 -z-50">
+          <div className="absolute xl:-bottom-10 lg:bottom-0 md:-bottom-10  bottom-0  xl:-right-20 md:-right-10 right-0 -z-50">
             <img
               src={addbg}
               className="max-w-[300px] xl:h-[570px] lg:h-[400px] md:h-[570px] md:flex hidden  -z-50"
               alt=""
             />
           </div>
-          <div className="flex md:gap-20 sm:gap-12 gap-0  sm:ml-10  absolute -bottom-14 ">
-            <img src={sos} className="sm:w-full w-40 " alt="" />
-            <img src={increse} className="sm:w-full w-40 " alt="" />
+          <div className="flex xl:gap-20 lg:gap-5 sm:gap-12 gap-0  sm:ml-10 ml-3  absolute -bottom-14 ">
+            <img src={sos} className="sm:w-full w-44 " alt="" />
+            <img src={increse} className="sm:w-full w-44 " alt="" />
           </div>
         </div>
       </div>

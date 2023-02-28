@@ -7,8 +7,8 @@ const Clients = () => {
       <h1 className="text-4xl font-evolventa font-bold text-center my-14">
         Clients about us
       </h1>
-      <div className="max-w-[1200px] grid   lg:grid-cols-12 grid-cols-2 gap-[17px]">
-        <div className="col-span-4 bg-[#01C2CB] h-[351px] w-full flex justify-center items-center">
+      <div className="max-w-[1200px] grid   lg:grid-cols-12 grid-cols-2 ">
+        <div className="col-span-4 bg-[#01C2CB] h-[351px] w-full  flex justify-center items-center">
           <div className="text-center">
             <img src={star} className=" block mx-auto" alt="" />
             <h1 className="text-[24px] uppercase font-evolventa font-semibold text-white mt-8">
@@ -19,7 +19,7 @@ const Clients = () => {
             </p>
           </div>
         </div>
-        <div className="col-span-6 lg:px-5 px-[10px] bg-[#F5F6F7] rounded[7px] py-7">
+        <div className="col-span-6 lg:px-5 px-[10px] bg-[#F5F6F7] rounded-[7px] py-7">
           <p className="lg:text-[19px] text-base font-arial font-medium text-[#717B88] tracking-[0.01em] ">
             After the campaign was launched, the interest of the audience
             increased: more calls and Direct messages from moms and dads came
@@ -28,7 +28,7 @@ const Clients = () => {
             same money we received only 5-6 applications.
           </p>
           <div className="flex items-end justify-between lg:mt-[90px] mt-16">
-            <div className="text-[#717B88]">
+            <div className="text-[#717B88] w-full">
               <h1 className="text-xl  font-arial  font-bold">Anar Kuspekova</h1>
               <p className="lg:text-[15px] text-[12px] font-arial font-normal mt-1 ">
                 Director of the "Miracle Montessori" Center

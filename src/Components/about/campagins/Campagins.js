@@ -33,7 +33,7 @@ const Campagins = () => {
             <Note text="Minimum payment - $30  Recommended - $250" />
           </div>
           <div className="lg:mt-0 mt-14">
-            <div className="absolute -right-10 lg:flex hidden top-0 mt-20">
+            <div className="absolute -right-5 lg:flex hidden top-0 mt-20">
               <img src={star} alt="" />
             </div>
             <div className="max-w[609px]">
